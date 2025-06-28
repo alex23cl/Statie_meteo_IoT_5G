@@ -10,7 +10,7 @@ Structură repository:
 - `/Cod_ESP32_1/` → cod sursă pentru ESP32_2 (viteză vânt, direcție vânt, volum precipitații)
 - `/Cod_raspberry/` → script Python pentru agregarea și transmiterea datelor către Firebase
 - `/app.py/` → aplicația web (NiceGUI) pentru afișare date
-- `/Partea teoretica/` → documentație tehnică (schema hardware, arhitectură sistem)
+- `/sensor_config/` → documentație tehnică (schema hardware, arhitectură sistem)
 - `README.md` → acest fișier
 
 ---
@@ -72,7 +72,7 @@ Structură repository:
 
 ## Pași de instalare și lansare
 
-- Conectează toți senzorii la cele două ESP32-uri conform schemei din `/docs/`
+- Conectează toți senzorii la cele două ESP32-uri conform schemei din `/sensor_config/`
 - Încarcă firmware-ul pe ambele plăci
 - Configurează modemul Fibocom EVB M2 pentru conectivitate 5G pe Raspberry Pi
 - Rulează scriptul de colectare date pe Raspberry Pi
@@ -87,7 +87,7 @@ Structură repository:
 - codul sursă complet ESP32 (Arduino)
 - codul sursă Raspberry Pi (Python)
 - aplicația web (NiceGUI)
-- documentație tehnică (arhitectură, scheme electrice, diagrame)
+- configurarea senzorilor 
 - fișierul de configurare Firebase (exclus din repo public)
 - README.md (acest fișier)
 
