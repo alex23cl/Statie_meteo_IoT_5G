@@ -1,4 +1,4 @@
-# 📌 Stație Meteo IoT 5G
+# Stație Meteo IoT 5G
 
 Acest proiect reprezintă o stație meteo inteligentă, capabilă să colecteze și să transmită în timp real parametrii meteorologici folosind tehnologii IoT (ESP32, Raspberry Pi) și conectivitate 5G prin modemul Fibocom EVB M2. Datele sunt salvate într-un backend Firebase și afișate printr-o interfață web dezvoltată cu NiceGUI.
 
